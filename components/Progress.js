@@ -1,12 +1,9 @@
-import React from 'react'
-
 const Progress = ({percent, info , skill , skillLogo}) => {
-    console.log(typeof(percent))
   return (
     <div className="my-2 md:my-4">
         <div className="flex my-1 items-center">
            <div className="flex items-center justify-center text-center bg-gray-800 rounded-md h-10 w-10 mr-2">
-            <p className="text-2xl font-semibold text-white">Ps</p>
+            <p className="text-2xl font-semibold text-white">{skillLogo}</p>
            </div> 
            <div>
              <h2 className="text-xl font-medium">{skill}</h2>

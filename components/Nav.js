@@ -6,8 +6,8 @@ import { AiFillGithub } from 'react-icons/ai'
 const Nav = () => {
 
   return (
-    <div className="flex flex-row fixed bg-orange-200  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800">
-      <div className="flex items-center justify-between w-[100%] md:w-[48em] px-2 py-1.5">
+    <div className="flex flex-row fixed bg-orange-100  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800">
+      <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
           <p className="text-xl font-bold mr-2"><Link href="/">🐾Sudhanshu Ranjan</Link></p>
           <ul className="md:flex hidden">

@@ -26,7 +26,7 @@ export default function Home() {
     <div className="w-[100%] md:w-[48em] m-[auto]">
       <section className="flex flex-col items-center justify-center my-4">
         <p className="bg-orange-100  py-3 w-[100%] md:w-[34em] m-[auto] rounded-md my-5 text-center px-[2em] md:px-[1em]">
-          Hello, I'm a frontend developer based in India!
+          Hello, I&apos;m a frontend developer based in India!
         </p>
 
         <div className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-2">
@@ -52,16 +52,16 @@ export default function Home() {
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
-          product called{" "}
+          product called
           <a href="www.google.com" target="blank" className="text-blue-500">
             Inkdrop
           </a>
           . He publishes content for marketing his products and his YouTube
-          channel called "
+          channel called &quot;
           <a href="www.google.com" target="blank" className="text-blue-500">
             Dev as Life
           </a>
-          " has more than 100k subscribers.
+          &quot; has more than 100k subscribers.
         </p>
       </section>
 
@@ -76,7 +76,7 @@ export default function Home() {
           <Link href="/works">
             <button
               type="button"
-              class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
+              className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
             >
               Projects {" >"}
             </button>

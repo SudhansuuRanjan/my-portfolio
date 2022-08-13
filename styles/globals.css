@@ -10,8 +10,5 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #fffbe8;
   scroll-behavior: smooth;
-}
-
-* {
   box-sizing: border-box;
 }
