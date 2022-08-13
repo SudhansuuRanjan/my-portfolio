@@ -28,7 +28,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="w-[100%] md:w-[48em] m-[auto]">
+    <div className="w-[100%] md:w-[34em] m-[auto]">
       <section className="flex flex-col items-center justify-center my-4">
         <div className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
           <p className="bg-pink-50 px-10 py-3 rounded-md">
