@@ -2,7 +2,12 @@ import Image from "next/image";
 import Title from "../components/Title";
 import Link from "next/link";
 import Progress from "../components/Progress";
-import { AiFillGithub , AiOutlineTwitter, AiFillMail, AiOutlineInstagram} from 'react-icons/ai'
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillMail,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 export default function Home() {
   const biodata = [
@@ -25,7 +30,7 @@ export default function Home() {
   return (
     <div className="w-[100%] md:w-[48em] m-[auto]">
       <section className="flex flex-col items-center justify-center my-4">
-        <p className="bg-orange-100  py-3 w-[100%] md:w-[34em] m-[auto] rounded-md my-5 text-center px-[2em] md:px-[1em]">
+        <p className="bg-pink-50  py-3 w-[100%] md:w-[34em] m-[auto] rounded-md my-5 text-center px-[2em] md:px-[1em] text-gray-800">
           Hello, I&apos;m a frontend developer based in India!
         </p>
 
@@ -52,9 +57,9 @@ export default function Home() {
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
-          product called
+          product called {" "}
           <a href="www.google.com" target="blank" className="text-blue-500">
-            Inkdrop
+             Inkdrop
           </a>
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
@@ -98,25 +103,24 @@ export default function Home() {
         <table className="my-3">
           <tbody>
             {biodata.map((bio, index) => {
-            return (
-              <tr key={index}>
-                <th className="align-top pr-2 text-justify">{bio.date}</th>
-                <td className="align-top text-justify">{bio.event}</td>
-              </tr>
-            );
-          })}
+              return (
+                <tr key={index}>
+                  <th className="align-top pr-2 text-justify">{bio.date}</th>
+                  <td className="align-top text-justify">{bio.event}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </section>
 
       {/* Hobbies */}
-      <section  className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
-       <Title title="I ♥" />
-       <p className="indent-5 py-3 text-justify">
-        Anime, Documentry, Music, Books, Shows, Machine Learning.
-       </p>
+      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
+        <Title title="I ♥" />
+        <p className="indent-5 py-3 text-justify">
+          Anime, Documentry, Music, Books, Shows, Machine Learning.
+        </p>
       </section>
-
 
       {/* Skills Section */}
 
@@ -162,20 +166,56 @@ export default function Home() {
         </div>
       </section>
 
-      
-
       {/* Socials */}
-      <section  className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
-       <Title title="On the web" />
-      <ul className="pt-4">
-        <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md "><a href="mailto:sudhanshur.ug20.ee@nitp.ac.in" className="flex items-center text-[#2C7A7B] font-medium"><AiFillMail className="mr-2" /><p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">sudhanshur.ug20.ee@nitp.ac.in</p></a></li>
-        <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md "><a href="https://github.com/SudhansuuRanjan" className="flex items-center text-[#2C7A7B] font-medium"><AiFillGithub className="mr-2" /><p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">@SudhansuuRanjan</p></a></li>
-        <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md "><a href="https://twitter.com/Sudhanss_u" className="flex items-center text-[#2C7A7B] font-medium"><AiOutlineTwitter className="mr-2" /><p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">@Sudhanss_u</p></a></li>
-        <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md "><a href="https://twitter.com/sudhanss_uu" className="flex items-center text-[#2C7A7B] font-medium"><AiOutlineInstagram className="mr-2" /><p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">@sudhanss_uu</p></a></li>
-      </ul>
+      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
+        <Title title="On the web" />
+        <ul className="pt-4">
+          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+            <a
+              href="mailto:sudhanshur.ug20.ee@nitp.ac.in"
+              className="flex items-center text-[#2C7A7B] font-medium"
+            >
+              <AiFillMail className="mr-2" />
+              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+                sudhanshur.ug20.ee@nitp.ac.in
+              </p>
+            </a>
+          </li>
+          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+            <a
+              href="https://github.com/SudhansuuRanjan"
+              className="flex items-center text-[#2C7A7B] font-medium"
+            >
+              <AiFillGithub className="mr-2" />
+              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+                @SudhansuuRanjan
+              </p>
+            </a>
+          </li>
+          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+            <a
+              href="https://twitter.com/Sudhanss_u"
+              className="flex items-center text-[#2C7A7B] font-medium"
+            >
+              <AiOutlineTwitter className="mr-2" />
+              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+                @Sudhanss_u
+              </p>
+            </a>
+          </li>
+          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+            <a
+              href="https://instagram.com/sudhanss_uu"
+              className="flex items-center text-[#2C7A7B] font-medium"
+            >
+              <AiOutlineInstagram className="mr-2" />
+              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+                @sudhanss_uu
+              </p>
+            </a>
+          </li>
+        </ul>
       </section>
-
-
     </div>
   );
 }
