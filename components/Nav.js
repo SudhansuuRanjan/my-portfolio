@@ -6,22 +6,23 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Nav = () => {
   const [menu, setMenu] = useState(false);
+  const [focus, setFocus] = useState(0);
 
   return (
     <div className="flex flex-row fixed bg-orange-100  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800">
       <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
-          <p className="text-xl font-bold mr-2">
+          <p className="text-xl font-bold mr-2" onClick={() => setFocus(0)}>
             <Link href="/">🐾Sudhanshu Ranjan</Link>
           </p>
           <ul className="md:flex hidden">
-            <li className="hover:underline mx-3">
+            <li className={focus === 1 ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 px-2 py-1" : "hover:underline px-2 py-1 mx-3 border-[3px] border-orange-100"} onClick={() => setFocus(1)}>
               <Link href="/works">Works</Link>
             </li>
-            <li className="hover:underline mx-3">
+            <li className={focus === 2 ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 px-2 py-1" : "hover:underline px-2 py-1 mx-3  border-[3px] border-orange-100"} onClick={() => setFocus(2)}>
               <Link href="/posts">Posts</Link>
             </li>
-            <li className="hover:underline mx-3">
+            <li className={focus === 3 ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 px-2 py-1" : "hover:underline px-2 py-1 mx-3 border-[3px] border-orange-100"} onClick={() => setFocus(3)}>
               <a
                 href="https://github.com/SudhansuuRanjan/my-portfolio"
                 className="flex items-center"
@@ -62,7 +63,10 @@ const Nav = () => {
             <li>
               <Link href="/">
                 <button
-                  onClick={() => setMenu(false)}
+                  onClick={() => {
+                    setMenu(false)
+                    setFocus(0)
+                  }}
                   className="hover:underline hover:border-sky-300  border-4 border-white py-1.5 w-[100%] pl-4 cursor-pointer hover:bg-sky-50 text-left"
                 >
                   About
@@ -72,7 +76,10 @@ const Nav = () => {
             <li>
               <Link href="/works">
                 <button
-                  onClick={() => setMenu(false)}
+                  onClick={() => {
+                    setMenu(false)
+                    setFocus(1)
+                  }}
                   className="hover:underline hover:border-sky-300  border-4 border-white py-1.5 w-[100%] pl-4 cursor-pointer hover:bg-sky-50 text-left"
                 >
                   Works
@@ -82,7 +89,10 @@ const Nav = () => {
             <li>
               <Link href="/posts">
                 <button
-                  onClick={() => setMenu(false)}
+                  onClick={() => {
+                    setMenu(false)
+                    setFocus(2)
+                  }}
                   className="hover:underline hover:border-sky-300  border-4 border-white py-1.5 w-[100%] pl-4 cursor-pointer hover:bg-sky-50 text-left"
                 >
                   Posts
@@ -95,7 +105,10 @@ const Nav = () => {
                 target="blank"
               >
                 <button
-                  onClick={() => setMenu(false)}
+                  onClick={() => {
+                    setMenu(false)
+                    setFocus(3)
+                  }}
                   className="hover:underline hover:border-sky-300  border-4 border-white py-1.5 w-[100%] pl-4 cursor-pointer hover:bg-sky-50 text-left flex items-center"
                 >
                 <AiFillGithub className="mr-1" />

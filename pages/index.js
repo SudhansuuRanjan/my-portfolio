@@ -30,20 +30,22 @@ export default function Home() {
   return (
     <div className="w-[100%] md:w-[48em] m-[auto]">
       <section className="flex flex-col items-center justify-center my-4">
-        <p className="bg-pink-50  py-3 w-[100%] md:w-[34em] m-[auto] rounded-md my-5 text-center px-[2em] md:px-[1em] text-gray-800">
+        <div className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
+          <p className="bg-pink-50 px-10 py-3 rounded-md">
           Hello, I&apos;m a frontend developer based in India!
         </p>
+        </div>
 
         <div className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-2">
           <div>
-            <h1 className="text-3xl font-semibold mt-2">Sudhanshu Ranjan</h1>
-            <p>Digital Craftsman ( FrontEnd Developer / Designer )</p>
+            <h1 className="text-2xl md:text-3xl font-semibold mt-2">Sudhanshu Ranjan</h1>
+            <p className="text-sm md:text-base">Digital Craftsman ( FrontEnd Developer / Designer )</p>
           </div>
           <div>
             <img
               src="https://www.craftz.dog/_next/image?url=%2Fimages%2Ftakuya.jpg&w=128&q=75"
               alt="profile"
-              className="rounded-full h-[6.5rem] border-4 border-white border-b-indigo-500 border-t-indigo-500 "
+              className="rounded-full h-[5rem] md:h-[6.5rem] border-4 border-white border-b-indigo-500 border-t-indigo-500 "
             />
           </div>
         </div>
