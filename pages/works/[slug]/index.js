@@ -6,7 +6,7 @@ import axios from "axios";
 
 const project = ({work}) => {
   return (
-    <div className="w-[100%] md:w-[34em] m-[auto] text-gray-800 px-[1em] dark:text-white pt-5">
+    <div className="w-[100%] md:w-[34em] m-[auto] text-gray-800 md:px-[1em] dark:text-white pt-5">
       <Meta title={work.name} description={work.details} />
       <div
         data-aos="fade-up"
@@ -52,7 +52,7 @@ const project = ({work}) => {
               target="blank"
               className="text-sky-500 cursor-pointer dark:text-pink-500"
             >
-              {work.blog}
+              {work.blog.substring(0,30) + "..."}
             </a>
           </div>
         ) : (
@@ -70,7 +70,7 @@ const project = ({work}) => {
             target="blank"
             className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
-            {work.website}
+            {work.website.substring(0,30) + "..."}
           </a>
         </div>
 
@@ -83,7 +83,7 @@ const project = ({work}) => {
             target="blank"
             className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
-            {work.repo}
+            {work.repo.substring(0,30) + "..."}
           </a>
         </div>
 
