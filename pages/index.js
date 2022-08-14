@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-2">
           <div>
-            <h1 className="text-2xl md:text-3xl font-semibold mt-2">
+            <h1 className="text-xl md:text-3xl font-semibold mt-2">
               Sudhanshu Ranjan
             </h1>
             <p className="text-sm md:text-base">
