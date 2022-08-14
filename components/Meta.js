@@ -15,8 +15,8 @@ const Meta = ({ title, keywords, description }) => {
         {/* <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> */}
         <meta name="twitter:title" content="Sudhanshu Ranjan" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
+        <meta name="twitter:site" content="@Sudhanss_u" />
+        <meta name="twitter:creator" content="@Sudhanss_u" />
         <meta name="twitter:image" content="https://sudhanshu-ranjan.vercel.app/card.jpg" />
         <meta property="og:site_name" content="Sudhanshu Ranjan" />
         <meta name="og:title" content="Sudhanshu Ranjan" />

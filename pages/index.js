@@ -59,10 +59,10 @@ export default function Home() {
       <section data-aos="fade-up" className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
         <Title title="About" />
         <p className="indent-5 py-3 text-justify">
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
+          I am a full-stack developer based in India with a
+          passion for building digital services/stuff. I have a knack
+          for all things building products, from planning and designing all the
+          way to solving real-life problems with code. When not online, I love
           hanging out with his camera. Currently, he is living off of his own
           product called{" "}
           <a
