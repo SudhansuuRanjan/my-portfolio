@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
           <p
-            className="text-2xl font-bold mr-2 text-gray-800 dark:text-white"
+            className="font-sans text-xl font-bold mr-2 text-gray-800 dark:text-white"
             onClick={() => {
               setFocus(0);
               setMenu(false);
