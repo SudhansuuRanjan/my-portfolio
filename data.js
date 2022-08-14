@@ -63,7 +63,7 @@ export const Skills = [
 export const Works = [
   {
     name: "portfolio",
-    infourl: "works/portfolio",
+    slug:"nextjs-portfolio",
     details:
       "Built my portfolio website using NextJs, Tailwind with animations and dark mode functionality.",
     date: "2022",
@@ -80,7 +80,7 @@ export const Works = [
   },
   {
     name: "to-do list",
-    infourl: "works/to-do-list",
+    slug:"to-do-list",
     details:
       "A Markdown note-taking app with 100+ plugins, cross-platform and encrypted data sync support. The life-time revenue is more than $300k.",
     date: "2021",

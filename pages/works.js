@@ -16,10 +16,10 @@ const works = () => {
           return (
             <ProjectCard
               key={index}
-              infourl={work.infourl}
               details={work.details}
               imgUrl={work.images[0].imgUrl}
               title={work.name}
+              slug={work.slug}
             />
           );
         })}
