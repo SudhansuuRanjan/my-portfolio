@@ -1,14 +1,21 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import React, { useState } from "react";
+import React, {useEffect, useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdDarkMode , MdLightMode } from "react-icons/md";
 import { AiFillGithub } from "react-icons/ai";
+
+export const useLoaded = () => {
+    const [loaded, setLoaded] = useState(false);
+    useEffect(() => setLoaded(true), []);
+    return loaded;
+};
 
 const Nav = () => {
   const [menu, setMenu] = useState(false);
   const [focus, setFocus] = useState(0);
   const { theme, setTheme } = useTheme();
+  const loaded = useLoaded();
 
   return (
     <div className=" z-50 font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800 dark:text-white">
@@ -74,7 +81,7 @@ const Nav = () => {
             }}
             className="text-white dark:text-gray-800 bg-violet-700 hover:bg-violet-800 focus:ring-[2.5px] focus:outline-none focus:ring-violet-300 dark:focus:ring-orange-50 font-medium rounded-lg text-lg p-2.5 text-center inline-flex items-center mr-2 dark:bg-orange-200 dark:hover:bg-orange-300 dark:focus:bg-orange-200"
           >
-            {theme === 'light' ? <MdDarkMode /> :<MdLightMode/>}
+            { loaded && (theme === 'light' ? <MdDarkMode /> :<MdLightMode/>)}
             <span className="sr-only">Icon description</span>
           </button>
 
