@@ -94,7 +94,7 @@ const Nav = () => {
         </div>
       </div>
       {menu && (
-        <div className="md:hidden fixed mt-[16rem] right-0 bg-white rounded-md w-[12rem] py-2 mr-5 shadow-md text-gray-800 dark:text-white dark:bg-gray-700 border-gray-500 border">
+        <div className="md:hidden fixed mt-[16rem] right-0 bg-white rounded-md w-[12rem] py-2 mr-5 shadow-md text-gray-800 dark:text-white dark:bg-gray-700 border-gray-200 dark:border-gray-500 border">
           <ul>
             <li>
               <Link href="/">

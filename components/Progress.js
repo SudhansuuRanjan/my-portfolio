@@ -10,8 +10,8 @@ const Progress = ({percent, info , skill , skillLogo}) => {
              <p className="text-[#2C7A7B] dark:text-[#5fd1d3] text-sm mt-[-0.2rem]">{info}</p>
            </div>
         </div>
-        <div className="md:w-[15rem] w-[20rem] h-3 bg-white border-gray-800 rounded border-2 box-content">
-            <div className={`h-3 pb-[1px] mt-[-1px] ml-[-1px] bg-gray-800 dark:bg-[#399c9e] box-content rounded-bl  text-white flex items-center justify-end w-[${percent}]`}>
+        <div className="flex md:w-[15rem] w-[20rem] h-3 bg-white border-gray-800 rounded border-2 box-content">
+            <div className={`h-3 pb-[1px] mt-[-1px] ml-[-1px] bg-gray-800 dark:bg-[#399c9e] box-content   text-white flex items-center justify-end w-[${percent}]`}>
                 <p className="text-xs">{percent}</p>
             </div>
         </div>

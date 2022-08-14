@@ -137,7 +137,7 @@ export default function Home() {
           />
           <Progress
             info="It is an important skill."
-            percent="50%"
+            percent="100%"
             skill="PhotoShop"
             skillLogo="Ps"
           />
