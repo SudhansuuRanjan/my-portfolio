@@ -28,10 +28,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="w-[100%] md:w-[34em] m-[auto]">
+    <div className="w-[100%] md:w-[34em] m-[auto] text-gray-800 dark:text-white">
       <section className="flex flex-col items-center justify-center my-4">
         <div className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
-          <p className="bg-pink-50 px-10 py-3 rounded-md">
+          <p className="dark:bg-gray-600 bg-pink-50  px-10 py-3 rounded-md">
           Hello, I&apos;m a frontend developer based in India!
         </p>
         </div>
@@ -45,7 +45,7 @@ export default function Home() {
             <img
               src="https://www.craftz.dog/_next/image?url=%2Fimages%2Ftakuya.jpg&w=128&q=75"
               alt="profile"
-              className="rounded-full h-[5rem] md:h-[6.5rem] border-4 border-white border-b-indigo-500 border-t-indigo-500 "
+              className="rounded-full h-[5rem] md:h-[6.5rem] border-4 border-white border-y-indigo-500 dark:border-y-pink-500 "
             />
           </div>
         </div>
@@ -60,12 +60,12 @@ export default function Home() {
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
           product called {" "}
-          <a href="www.google.com" target="blank" className="text-blue-500">
+          <a href="www.google.com" target="blank" className="text-blue-500 dark:text-pink-500">
              Inkdrop
           </a>
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
-          <a href="www.google.com" target="blank" className="text-blue-500">
+          <a href="www.google.com" target="blank" className="text-blue-500 dark:text-pink-500">
             Dev as Life
           </a>
           &quot; has more than 100k subscribers.
@@ -83,7 +83,7 @@ export default function Home() {
           <Link href="/works">
             <button
               type="button"
-              className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
+              className="text-white  hover:bg-[#4caaab] border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:border-gray-700 dark:text-gray-800 dark:hover:bg-[#53b9ba] mr-2 mb-2 bg-[#309799] dark:bg-[#5fd1d3]"
             >
               Projects {" >"}
             </button>
@@ -91,7 +91,7 @@ export default function Home() {
           <a href="Sudhanshu_Resume.pdf" download>
             <button
               type="button"
-              className="text-white bg-[#2557D6] hover:bg-[#2557D6]/90 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#2557D6]/50 mr-2 mb-2"
+              className="text-white bg-[#2557D6] dark:bg-pink-400 dark:hover:bg-pink-500 hover:bg-[#2557D6]/90 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:focus:ring-pink-400/50 mr-2 mb-2 dark:text-gray-800"
             >
               Resume {" >"}
             </button>
@@ -172,46 +172,46 @@ export default function Home() {
       <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
         <Title title="On the web" />
         <ul className="pt-4">
-          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+          <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">
             <a
               href="mailto:sudhanshur.ug20.ee@nitp.ac.in"
-              className="flex items-center text-[#2C7A7B] font-medium"
+              className="flex items-center text-[#2C7A7B] dark:text-[#5fd1d3] font-medium"
             >
               <AiFillMail className="mr-2" />
-              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+              <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
                 sudhanshur.ug20.ee@nitp.ac.in
               </p>
             </a>
           </li>
-          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+          <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">
             <a
               href="https://github.com/SudhansuuRanjan"
-              className="flex items-center text-[#2C7A7B] font-medium"
+              className="flex items-center text-[#2C7A7B] dark:text-[#5fd1d3] font-medium"
             >
               <AiFillGithub className="mr-2" />
-              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+              <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
                 @SudhansuuRanjan
               </p>
             </a>
           </li>
-          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+          <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">
             <a
               href="https://twitter.com/Sudhanss_u"
-              className="flex items-center text-[#2C7A7B] font-medium"
+              className="flex items-center text-[#2C7A7B] dark:text-[#5fd1d3] font-medium"
             >
               <AiOutlineTwitter className="mr-2" />
-              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+              <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
                 @Sudhanss_u
               </p>
             </a>
           </li>
-          <li className="hover:bg-cyan-100 py-2 px-6 w-fit rounded-md ">
+          <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">
             <a
               href="https://instagram.com/sudhanss_uu"
-              className="flex items-center text-[#2C7A7B] font-medium"
+              className="flex items-center text-[#2C7A7B] dark:text-[#5fd1d3] font-medium"
             >
               <AiOutlineInstagram className="mr-2" />
-              <p className="hover:underline underline-offset-2 decoration-sky-400 decoration-3">
+              <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
                 @sudhanss_uu
               </p>
             </a>

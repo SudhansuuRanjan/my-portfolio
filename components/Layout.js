@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Meta />
       <Nav />
       <div >
-        <main>
+        <main className="bg-[#fffbe8] dark:bg-[#202023]">
           <Header />
           {children}
           <Footer/>
