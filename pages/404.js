@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Meta from "../components/Meta";
 
 export default function Custom404() {
   return (
     <>
+    <Meta title={"Sudhanshu Ranjan | 404"} description={"There is nothing there."}/>
       <div className="w-[100%] md:w-[34em] m-[auto]">
         <div className="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700 dark:text-white">
           <div className="max-w-md mt-[5rem] pb-10">

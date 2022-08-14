@@ -17,11 +17,11 @@ const Meta = ({ title, keywords, description }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@craftzdog" />
         <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.sudhanshu-ranjan.vercel.app/card.png" />
+        <meta name="twitter:image" content="https://sudhanshu-ranjan.vercel.app/card.jpg" />
         <meta property="og:site_name" content="Sudhanshu Ranjan" />
         <meta name="og:title" content="Sudhanshu Ranjan" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.sudhanshu-ranjan.vercel.app/card.png" />
+        <meta property="og:image" content="https://sudhanshu-ranjan.vercel.app/card.jpg" />
         <title>{title}</title>
     </Head>
   )
@@ -30,7 +30,7 @@ const Meta = ({ title, keywords, description }) => {
 Meta.defaultProps = {
   title: "Sudhanshu Ranjan - Homepage",
   keywords: 'web development, programming, frontend development',
-  description: "Sudhanshu&apos;s Homepage",
+  description: "Sudhanshu's Homepage",
 }
 
 export default Meta
