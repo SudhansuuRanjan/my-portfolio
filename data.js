@@ -23,22 +23,28 @@ export const Blogs = [
 
 export const Skills = [
    {
-    skill:"HTML",
+    skill:"HTML/CSS",
     skillLogo:"H",
     percent:"85%",
-    text:"Built a lot of HTML projects."
+    text:"Done 50+ HTML/CSS projects."
    },
    {
     skill:"Javascript",
     skillLogo:"Js",
     percent:"75%",
-    text:"Built a lot of Js projects."
+    text:"Built 20 Js projects."
    },
    {
-    skill:"CSS",
-    skillLogo:"C",
-    percent:"70%",
-    text:"Built a lot of CSS projects."
+    skill:"ReactJs",
+    skillLogo:"Re",
+    percent:"75%",
+    text:"Done 15+ ReactJs projects."
+   },
+   {
+    skill:"NodeJs",
+    skillLogo:"No",
+    percent:"60%",
+    text:"Built 10+ NodeJs projects."
    },
    {
     skill:"JAVA",
@@ -51,12 +57,6 @@ export const Skills = [
     skillLogo:"D",
     percent:"40%",
     text:"Started learning DSA."
-   },
-   {
-    skill:"UI/Ux",
-    skillLogo:"Ux",
-    percent:"40%",
-    text:"Built a lot of UI/Ux projects."
    },
 ]
 
