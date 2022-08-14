@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="https://www.craftz.dog/_next/image?url=%2Fimages%2Ftakuya.jpg&w=128&q=75"
+              src="https://avatars.githubusercontent.com/u/77230416?v=4"
               alt="profile"
               className="rounded-full h-[5rem] md:h-[6.5rem] border-4 border-white border-y-indigo-500 dark:border-y-pink-500 "
             />
