@@ -6,7 +6,6 @@ import Link from 'next/link'
 const project = ({ work }) => {
   //   const router = useRouter();
   //   const { slug } = router.query;
-
   return (
     <>
       <Meta title={work.name} description={work.details} />
@@ -18,19 +17,6 @@ const project = ({ work }) => {
   );
 };
 
-// export const getServerSideProps = async (context) => {
-//   const res = await fetch(
-//     `https://jsonplaceholder.typicode.com/posts/${context.params.slug}`
-//   );
-
-//   const work = await res.json();
-
-//   return {
-//     props:{
-//          work,
-//     }
-//   };
-// };
 
 export const getStaticProps = async (context) => {
   const res = await fetch(`${server}/api/works/${context.params.slug}`)
@@ -57,8 +43,6 @@ export const getStaticPaths = async () => {
     fallback: false,
   }
 }
-
-
 
 
 export default project;
