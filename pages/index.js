@@ -145,6 +145,7 @@ export default function Home() {
           {Skills.map((skill, index) => {
             return (
               <Progress
+                key={index}
                 info={skill.text}
                 percent={skill.percent}
                 skill={skill.skill}
