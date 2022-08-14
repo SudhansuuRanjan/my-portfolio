@@ -21,6 +21,45 @@ export const Blogs = [
   },
 ];
 
+export const Skills = [
+   {
+    skill:"HTML",
+    skillLogo:"H",
+    percent:"85%",
+    text:"Built a lot of HTML projects."
+   },
+   {
+    skill:"Javascript",
+    skillLogo:"Js",
+    percent:"75%",
+    text:"Built a lot of Js projects."
+   },
+   {
+    skill:"CSS",
+    skillLogo:"C",
+    percent:"70%",
+    text:"Built a lot of CSS projects."
+   },
+   {
+    skill:"JAVA",
+    skillLogo:"J",
+    percent:"70%",
+    text:"Studied in class."
+   },
+   {
+    skill:"DSA",
+    skillLogo:"D",
+    percent:"40%",
+    text:"Started learning DSA."
+   },
+   {
+    skill:"UI/Ux",
+    skillLogo:"Ux",
+    percent:"40%",
+    text:"Built a lot of UI/Ux projects."
+   },
+]
+
 export const Works = [
   {
     name: "to-do list",

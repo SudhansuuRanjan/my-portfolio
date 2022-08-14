@@ -2,6 +2,7 @@ import Image from "next/image";
 import Title from "../components/Title";
 import Link from "next/link";
 import Progress from "../components/Progress";
+import { Skill, Skills } from "../data";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -32,14 +33,18 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center my-4">
         <div className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
           <p className="dark:bg-gray-600 bg-pink-50  px-10 py-3 rounded-md">
-          Hello, I&apos;m a frontend developer based in India!
-        </p>
+            Hello, I&apos;m a frontend developer based in India!
+          </p>
         </div>
 
         <div className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-2">
           <div>
-            <h1 className="text-2xl md:text-3xl font-semibold mt-2">Sudhanshu Ranjan</h1>
-            <p className="text-sm md:text-base">( FrontEnd Developer / Designer )</p>
+            <h1 className="text-2xl md:text-3xl font-semibold mt-2">
+              Sudhanshu Ranjan
+            </h1>
+            <p className="text-sm md:text-base">
+              ( FrontEnd Developer / Designer )
+            </p>
           </div>
           <div>
             <img
@@ -59,13 +64,21 @@ export default function Home() {
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
-          product called {" "}
-          <a href="www.google.com" target="blank" className="text-blue-500 dark:text-pink-500">
-             Inkdrop
+          product called{" "}
+          <a
+            href="www.google.com"
+            target="blank"
+            className="text-blue-500 dark:text-pink-500"
+          >
+            Inkdrop
           </a>
           . He publishes content for marketing his products and his YouTube
           channel called &quot;
-          <a href="www.google.com" target="blank" className="text-blue-500 dark:text-pink-500">
+          <a
+            href="www.google.com"
+            target="blank"
+            className="text-blue-500 dark:text-pink-500"
+          >
             Dev as Life
           </a>
           &quot; has more than 100k subscribers.
@@ -129,42 +142,16 @@ export default function Home() {
       <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] my-4">
         <Title title="Skills" />
         <div className="flex flex-wrap items-center justify-between   m-[auto] ">
-          <Progress
-            info="It is an important skill."
-            percent="50%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
-          <Progress
-            info="It is an important skill."
-            percent="100%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
-          <Progress
-            info="It is an important skill."
-            percent="50%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
-          <Progress
-            info="It is an important skill."
-            percent="50%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
-          <Progress
-            info="It is an important skill."
-            percent="50%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
-          <Progress
-            info="It is an important skill."
-            percent="50%"
-            skill="PhotoShop"
-            skillLogo="Ps"
-          />
+          {Skills.map((skill, index) => {
+            return (
+              <Progress
+                info={skill.text}
+                percent={skill.percent}
+                skill={skill.skill}
+                skillLogo={skill.skillLogo}
+              />
+            );
+          })}
         </div>
       </section>
 

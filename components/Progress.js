@@ -11,7 +11,7 @@ const Progress = ({percent, info , skill , skillLogo}) => {
            </div>
         </div>
         <div className="flex md:w-[15rem] w-[20rem] h-3 bg-white border-gray-800 rounded border-2 box-content dark:border-[#399c9e]">
-            <div className={`h-3 pb-[1px] mt-[-1px] ml-[-1px] bg-gray-800 dark:bg-[#399c9e] box-content   text-white flex items-center justify-end`} style={{"width":`${percent}`}}>
+            <div className={`h-3 pb-[2px] mt-[-1px] ml-[-1px] bg-gray-800 dark:bg-[#399c9e] box-content  text-white flex items-center justify-end`} style={{"width":`${percent}`}}>
                 <p className="text-xs">{percent}</p>
             </div>
         </div>
