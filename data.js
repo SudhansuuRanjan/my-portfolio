@@ -62,22 +62,19 @@ export const Skills = [
 
 export const Works = [
   {
-    name: "to-do list",
-    infourl: "works/to-do-list",
+    name: "portfolio",
+    infourl: "works/portfolio",
     details:
-      "A Markdown note-taking app with 100+ plugins, cross-platform and encrypted data sync support. The life-time revenue is more than $300k.",
-    date: "2021",
-    website: "https://www.inkdrop.app/",
-    repo: "https://www.inkdrop.app/",
+      "Built my portfolio website using NextJs, Tailwind with animations and dark mode functionality.",
+    date: "2022",
+    website: "https://sudhanshu-ranjan.vercel.app/",
+    repo: "https://github.com/SudhansuuRanjan/my-portfolio",
     platform: "Web",
-    stack: "HTML/CSS, Javascript",
-    blog: "https://www.inkdrop.app/",
+    stack: "NextJs, Tailwind",
+    blog: "https://github.com/SudhansuuRanjan/my-portfolio",
     images: [
       {
-        imgUrl: "https://www.craftz.dog/images/works/inkdrop_01.png",
-      },
-      {
-        imgUrl: "https://www.craftz.dog/images/works/inkdrop_02.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/portfolio.png",
       },
     ],
   },
