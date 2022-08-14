@@ -50,7 +50,7 @@ const project = ({work}) => {
             <a
               href={work.blog}
               target="blank"
-              class="text-sky-500 cursor-pointer dark:text-pink-500"
+              className="text-sky-500 cursor-pointer dark:text-pink-500"
             >
               {work.blog}
             </a>
@@ -68,7 +68,7 @@ const project = ({work}) => {
           <a
             href={work.website}
             target="blank"
-            class="text-sky-500 cursor-pointer dark:text-pink-500"
+            className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
             {work.website}
           </a>
@@ -81,7 +81,7 @@ const project = ({work}) => {
           <a
             href={work.repo}
             target="blank"
-            class="text-sky-500 cursor-pointer dark:text-pink-500"
+            className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
             {work.repo}
           </a>
