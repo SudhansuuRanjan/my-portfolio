@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 
 const ProjectCard = ({infourl , details , imgUrl , title}) => {
   return (
-    <div className="md:w-[14.5rem] my-5 cursor-pointer text-center">
+    <div data-aos="fade-up" className="md:w-[14.5rem] my-5 cursor-pointer text-center">
       <Link href={infourl}>
         <div>
           <div className="rounded-xl md:h-[8rem] md:w-[14rem] overflow-hidden">

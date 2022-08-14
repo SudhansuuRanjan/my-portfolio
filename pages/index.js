@@ -30,14 +30,14 @@ export default function Home() {
 
   return (
     <div className="w-[100%] md:w-[34em] m-[auto] text-gray-800 dark:text-white">
-      <section className="flex flex-col items-center justify-center my-4">
-        <div className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
+      <section className="flex flex-col items-center justify-center mb-4 mt-10">
+        <div data-aos="fade-up" className=" w-[100%] md:w-[34em] text-center px-[1em] my-4">
           <p className="dark:bg-gray-600 bg-pink-50  px-10 py-3 rounded-md">
             Hello, I&apos;m a frontend developer based in India!
           </p>
         </div>
 
-        <div className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-2">
+        <div data-aos="fade-up" className="flex  justify-between  w-[100%] md:w-[34em] px-[2em] md:px-[1em] mt-10">
           <div>
             <h1 className="text-2xl md:text-3xl font-semibold mt-2">
               Sudhanshu Ranjan
@@ -46,7 +46,7 @@ export default function Home() {
               ( FrontEnd Developer / Designer )
             </p>
           </div>
-          <div>
+          <div data-aos="flip-up">
             <img
               src="https://avatars.githubusercontent.com/u/77230416?v=4"
               alt="profile"
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] my-4">
+      <section data-aos="fade-up" className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
         <Title title="About" />
         <p className="indent-5 py-3 text-justify">
           Takuya is a freelance and a full-stack developer based in Osaka with a
@@ -85,7 +85,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] my-4">
+      <section data-aos="fade-up" className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
         <Title title="Projects" />
         <p className="indent-5 py-3 text-justify">
           The best way to learn something is to build some awesome projects
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* Bio Section*/}
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] my-4">
+      <section data-aos="fade-up" className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
         <Title title="Bio" />
         <table className="my-3">
           <tbody>
@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* Hobbies */}
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
+      <section  data-aos="fade-up"  className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4 mt-10">
         <Title title="I ♥" />
         <p className="indent-5 py-3 text-justify">
           Anime, Documentry, Music, Books, Shows, Machine Learning.
@@ -139,7 +139,7 @@ export default function Home() {
 
       {/* Skills Section */}
 
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] my-4">
+      <section   className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
         <Title title="Skills" />
         <div className="flex flex-wrap items-center justify-between   m-[auto] ">
           {Skills.map((skill, index) => {
@@ -157,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* Socials */}
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4">
+      <section  data-aos="fade-up"  className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4 mt-10">
         <Title title="On the web" />
         <ul className="pt-4">
           <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">

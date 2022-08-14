@@ -11,7 +11,7 @@ const Nav = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800 dark:text-white">
+    <div className=" z-50 font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800 dark:text-white">
       <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
           <p
