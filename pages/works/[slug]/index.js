@@ -4,7 +4,7 @@ import Meta from "../../../components/Meta";
 import Link from "next/link";
 import axios from "axios";
 
-const project = ({work}) => {
+const project = ({ work }) => {
   return (
     <div className="w-[100%] md:w-[34em] m-[auto] text-gray-800 md:px-[1em] dark:text-white pt-5">
       <Meta title={work.name} description={work.details} />
@@ -24,9 +24,7 @@ const project = ({work}) => {
         </p>
       </div>
 
-      <div
-        className=" w-[100%] md:w-[34em] text-left px-[1em] my-4"
-      >
+      <div className=" w-[100%] md:w-[34em] text-left px-[1em] my-4">
         <div>
           <p className="indent-5  text-justify pb-5">{work.details}</p>
         </div>
@@ -52,14 +50,19 @@ const project = ({work}) => {
               target="blank"
               className="text-sky-500 cursor-pointer dark:text-pink-500"
             >
-              {work.blog.substring(0,30) + "..."}
+              {work.blog.substring(0, 30) + "..."}
             </a>
           </div>
         ) : (
           <></>
         )}
 
-        <h1 data-aos="fade-up" className="text-center font-semibold text-lg my-4">Links</h1>
+        <h1
+          data-aos="fade-up"
+          className="text-center font-semibold text-lg my-4"
+        >
+          Links
+        </h1>
 
         <div data-aos="fade-up" className="flex items-start py-1">
           <h2 className="py-[2px] px-[0.25rem] text-sm rounded dark:bg-green-800 bg-green-200 dark:text-green-100 text-green-800 mr-2 font-semibold">
@@ -70,7 +73,7 @@ const project = ({work}) => {
             target="blank"
             className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
-            {work.website.substring(0,30) + "..."}
+            {work.website.substring(0, 30) + "..."}
           </a>
         </div>
 
@@ -83,15 +86,24 @@ const project = ({work}) => {
             target="blank"
             className="text-sky-500 cursor-pointer dark:text-pink-500"
           >
-            {work.repo.substring(0,30) + "..."}
+            {work.repo.substring(0, 30) + "..."}
           </a>
         </div>
 
-        <h1 data-aos="fade-up" className="text-center font-semibold text-lg my-4">Snapshot(s)</h1>
+        <h1
+          data-aos="fade-up"
+          className="text-center font-semibold text-lg my-4"
+        >
+          Snapshot(s)
+        </h1>
 
         {work.images.map((image, index) => {
           return (
-            <div data-aos="fade-up" key={index} className="p-5 m-[auto] overflow-hidden">
+            <div
+              data-aos="fade-up"
+              key={index}
+              className="p-5 m-[auto] overflow-hidden"
+            >
               <img
                 className="object-cover hover:scale-[1.02] rounded-xl"
                 src={image.imgUrl}

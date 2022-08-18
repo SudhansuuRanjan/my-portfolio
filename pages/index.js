@@ -154,12 +154,89 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Achievements */}
+
+      <section
+        data-aos="fade-up"
+        className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4 mt-10"
+      >
+        <Title title="Experience" />
+        <div data-aos="fade-up">
+          <ul className="list-[square] p-5 pb-0">
+            <li>
+              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
+                Hackaruto (Founder & Tech Lead)
+              </h1>
+              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
+                An open source club affiliated to Hackclub
+              </p>
+              <ul className="list-disc ml-5 text-md mt-1">
+                <li>Founded Hackaruto Club</li>
+                <li>
+                  Designed and developed the official website of Hackaruto ( an
+                  open source club affiliated to Hackclub)
+                </li>
+                <li>
+                  Organized sessions on hot topics like Web3, Open Source.
+                </li>
+                <li>
+                  Conducted hands on session on Github fundamentals and guided
+                  juniors about Open Source.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div data-aos="fade-up">
+          <ul className="list-[square] p-5 pb-0">
+            <li>
+              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
+                HackSlash (Projects Lead)
+              </h1>
+              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
+                Coding club at NIT, Patna
+              </p>
+              <ul className="list-disc ml-5 text-md mt-1">
+                <li>Built Hack-Nitp (Hackathon) website.</li>
+                <li>Worked on full stack projects.</li>
+                <li>Made UI of 3 apps and Hackslash Website.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div data-aos="fade-up">
+          <ul className="list-[square] p-5 pb-0">
+            <li>
+              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
+                Robotics Club (Web Coordinator)
+              </h1>
+              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
+                Robotics club at NIT, Patna
+              </p>
+              <ul className="list-disc ml-5 text-md mt-1">
+                <li>
+                  Contributed to official website of robotics club and currently
+                  maintaining it.
+                </li>
+                <li>Worked on various IoT projects.</li>
+                <li>Organized events and guided peers.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
       {/* Skills Section */}
 
-      <section className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10">
+      <section
+        data-aos="fade-up"
+        className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] mb-4 mt-10"
+      >
         <Title title="Skills" />
-        <div className="flex flex-wrap items-center justify-between   m-[auto] ">
-          {Skills.map((skill, index) => {
+        <div className="flex flex-wrap items-center justify-center  m-[auto] p-10">
+          {/* {Skills.map((skill, index) => {
             return (
               <Progress
                 key={index}
@@ -169,7 +246,79 @@ export default function Home() {
                 skillLogo={skill.skillLogo}
               />
             );
-          })}
+          })} */}
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[3rem] m-2"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/311px-Nextjs-logo.svg.png?20190307203525"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[3rem] m-2"
+            src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667"
+            alt="skill-image"
+          />
+          <img
+            data-aos="fade-up"
+            className="h-[4rem] m-2"
+            src="https://camo.githubusercontent.com/b3a1cdd20d0f308634ddd4598cdaa729c2d77047f51e66fa7206b9b4bac94c23/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61726475696e6f2d312e737667"
+            alt="skill-image"
+          />
         </div>
       </section>
 
