@@ -91,7 +91,7 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/twitter-spaces.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/twitter-spaces.png",
       },
     ],
   },
@@ -108,13 +108,13 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/helping-hands-homepage.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/helping-hands-homepage.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/helping-hands-topics.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/helping-hands-topics.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/helping-hands-ee1.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/helping-hands-ee1.png",
       },
     ],
   },
@@ -131,10 +131,10 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/linktree-clone.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/linktree-clone.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/linktree-clone-1.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/linktree-clone-1.png",
       },
     ],
   },
@@ -151,10 +151,10 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/HackNITP4.0-home.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/HackNITP4.0-home.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/HackNITP4.0-eventschedule.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/HackNITP4.0-eventschedule.png",
       },
     ],
   },
@@ -171,13 +171,13 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/robo1.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo1.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/robo3.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo3.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/robo2.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo2.png",
       },
     ],
   },
@@ -194,13 +194,13 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000/images/works/robo1.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo1.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/robo3.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo3.png",
       },
       {
-        imgUrl: "http://localhost:3000/images/works/robo2.png",
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo2.png",
       },
     ],
   },
