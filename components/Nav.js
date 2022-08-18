@@ -18,7 +18,7 @@ const Nav = () => {
   const loaded = useLoaded();
 
   return (
-    <div className=" z-50 font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800  backdrop-filter backdrop-blur-md w-[100vw] items-center justify-center text-gray-800 dark:text-white">
+    <div className="bg-opacity-5 backdrop-blur-md drop-shadow-md z-50 font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800 dark:bg-opacity-5 dark:backdrop-blur-md dark:drop-shadow-md  w-[100vw] items-center justify-center text-gray-800 dark:text-white">
       <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
           <p
@@ -35,7 +35,7 @@ const Nav = () => {
               className={
                 focus === 1
                   ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 dark:bg-[#2C7A7B] px-2 py-1"
-                  : "hover:underline px-2 py-1 mx-3 border-[3px] border-orange-100 dark:border-gray-800"
+                  : "hover:underline px-2 py-1 mx-3 border-[3px] border-none dark:border-gray-800"
               }
               onClick={() => setFocus(1)}
             >
@@ -45,7 +45,7 @@ const Nav = () => {
               className={
                 focus === 2
                   ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 dark:bg-[#2C7A7B] px-2 py-1"
-                  : "hover:underline px-2 py-1 mx-3  border-[3px] border-orange-100 dark:border-gray-800"
+                  : "hover:underline px-2 py-1 mx-3  border-[3px] border-none dark:border-gray-800"
               }
               onClick={() => setFocus(2)}
             >
@@ -55,7 +55,7 @@ const Nav = () => {
               className={
                 focus === 3
                   ? "hover:underline mx-3 border-sky-300  border-[3px]  bg-sky-50 dark:bg-[#2C7A7B] px-2 py-1"
-                  : "hover:underline px-2 py-1 mx-3 border-[3px] border-orange-100 dark:border-gray-800"
+                  : "hover:underline px-2 py-1 mx-3 border-[3px] border-none dark:border-gray-800"
               }
               onClick={() => setFocus(3)}
             >
