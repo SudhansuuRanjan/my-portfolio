@@ -188,19 +188,19 @@ export const Works = [
       "Designed and developed the official website of Hackaruto(an open source club affiliated to Hackclub)",
     date: "2021",
     website: "https://hackaruto.hackclub.com/",
-    repo: "https://github.com/SudhansuuRanjan/roboticsclubnitpweb",
+    repo: "https://github.com/Hackaruto/hackaruto",
     platform: "Web",
-    stack: "ReactJs, NodeJs",
+    stack: "NodeJs, ReactJs, Tailwind, ViteJs",
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo1.png",
+        imgUrl: "http://localhost:3000//images/works/hackaruto-home.png",
       },
       {
-        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo3.png",
+        imgUrl: "http://localhost:3000//images/works/hackaruto-2.png",
       },
       {
-        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/robo2.png",
+        imgUrl: "http://localhost:3000//images/works/hackaruto-events.png",
       },
     ],
   },
