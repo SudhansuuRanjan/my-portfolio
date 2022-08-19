@@ -194,13 +194,13 @@ export const Works = [
     blog: "https://www.inkdrop.app/",
     images: [
       {
-        imgUrl: "http://localhost:3000//images/works/hackaruto-home.png",
+        imgUrl: "http://sudhanshu-ranjan.vercel.app//images/works/hackaruto-home.png",
       },
       {
-        imgUrl: "http://localhost:3000//images/works/hackaruto-2.png",
+        imgUrl: "http://sudhanshu-ranjan.vercel.app//images/works/hackaruto-2.png",
       },
       {
-        imgUrl: "http://localhost:3000//images/works/hackaruto-events.png",
+        imgUrl: "http://sudhanshu-ranjan.vercel.app//images/works/hackaruto-events.png",
       },
     ],
   },
