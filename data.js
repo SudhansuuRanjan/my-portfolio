@@ -185,9 +185,9 @@ export const Works = [
     name: "Hackaruto",
     slug: "hackaruto",
     details:
-      "Contributed to official website of robotics club and currently maintaining it.",
+      "Designed and developed the official website of Hackaruto(an open source club affiliated to Hackclub)",
     date: "2021",
-    website: "https://roboticsnitp.co.in/",
+    website: "https://hackaruto.hackclub.com/",
     repo: "https://github.com/SudhansuuRanjan/roboticsclubnitpweb",
     platform: "Web",
     stack: "ReactJs, NodeJs",
