@@ -144,6 +144,35 @@ export default function Home() {
         className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4 mt-10"
       >
         <Title title="Experience" />
+
+        <div data-aos="fade-up">
+          <ul className="list-[square] p-5 pb-0">
+            <li>
+              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
+                Robotics Club (Joint Secretary)
+              </h1>
+              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
+                Robotics club at NIT, Patna
+              </p>
+              <ul className="list-disc ml-5 text-md mt-1">
+                <li>
+                  Contributed to official{" "}
+                  <a
+                    className="text-blue-500 dark:text-pink-500"
+                    href="https://roboticsnitp.co.in/"
+                    target="blank"
+                  >
+                    website
+                  </a>{" "}
+                  of robotics club and currently maintaining it.
+                </li>
+                <li>Worked on various IoT projects.</li>
+                <li>Organized events and guided peers.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
         <div data-aos="fade-up">
           <ul className="list-[square] p-5 pb-0">
             <li>
@@ -177,6 +206,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
         <div data-aos="fade-up">
           <ul className="list-[square] p-5 pb-0">
             <li>
@@ -200,34 +230,6 @@ export default function Home() {
                 </li>
                 <li>Worked on full stack projects.</li>
                 <li>Made UI of 3 apps and Hackslash Website.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div data-aos="fade-up">
-          <ul className="list-[square] p-5 pb-0">
-            <li>
-              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
-                Robotics Club (Web Coordinator)
-              </h1>
-              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
-                Robotics club at NIT, Patna
-              </p>
-              <ul className="list-disc ml-5 text-md mt-1">
-                <li>
-                  Contributed to official{" "}
-                  <a
-                    className="text-blue-500 dark:text-pink-500"
-                    href="https://roboticsnitp.co.in/"
-                    target="blank"
-                  >
-                    website
-                  </a>{" "}
-                  of robotics club and currently maintaining it.
-                </li>
-                <li>Worked on various IoT projects.</li>
-                <li>Organized events and guided peers.</li>
               </ul>
             </li>
           </ul>
