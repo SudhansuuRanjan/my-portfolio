@@ -69,28 +69,10 @@ export default function Home() {
       >
         <Title title="About" />
         <p className="indent-5 py-3 text-justify">
-          I am a full-stack developer based in India with a passion for building
+          I am a self taught front end developer based in India with a passion for building
           digital services/stuff. I have a knack for all things building
           products, from planning and designing all the way to solving real-life
-          problems with code. When not online, I love hanging out with his
-          camera. Currently, he is living off of his own product called{" "}
-          <a
-            href="www.google.com"
-            target="blank"
-            className="text-blue-500 dark:text-pink-500"
-          >
-            Inkdrop
-          </a>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <a
-            href="www.google.com"
-            target="blank"
-            className="text-blue-500 dark:text-pink-500"
-          >
-            Dev as Life
-          </a>
-          &quot; has more than 100k subscribers.
+          problems with code. When not online, I love watching docuseries.
         </p>
       </section>
 
