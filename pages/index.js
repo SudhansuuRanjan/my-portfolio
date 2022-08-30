@@ -5,6 +5,7 @@ import Progress from "../components/Progress";
 import { Skill, Skills } from "../data";
 import {
   AiFillGithub,
+  AiFillLinkedin,
   AiOutlineTwitter,
   AiFillMail,
   AiOutlineInstagram,
@@ -68,28 +69,10 @@ export default function Home() {
       >
         <Title title="About" />
         <p className="indent-5 py-3 text-justify">
-          I am a full-stack developer based in India with a passion for building
+          I am a self taught front end developer based in India with a passion for building
           digital services/stuff. I have a knack for all things building
           products, from planning and designing all the way to solving real-life
-          problems with code. When not online, I love hanging out with his
-          camera. Currently, he is living off of his own product called{" "}
-          <a
-            href="www.google.com"
-            target="blank"
-            className="text-blue-500 dark:text-pink-500"
-          >
-            Inkdrop
-          </a>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <a
-            href="www.google.com"
-            target="blank"
-            className="text-blue-500 dark:text-pink-500"
-          >
-            Dev as Life
-          </a>
-          &quot; has more than 100k subscribers.
+          problems with code. When not online, I love watching docuseries.
         </p>
       </section>
 
@@ -112,7 +95,7 @@ export default function Home() {
               Projects {" >"}
             </button>
           </Link>
-          <a href="Sudhanshu_Resume.pdf" download>
+          <a href="Sudhanshu's Resume.pdf" download>
             <button
               type="button"
               className="text-white bg-[#2557D6] dark:bg-pink-400 dark:hover:bg-pink-500 hover:bg-[#2557D6]/90 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:focus:ring-pink-400/50 mr-2 mb-2 dark:text-gray-800"
@@ -161,6 +144,35 @@ export default function Home() {
         className="w-[100%] md:w-[34em] m-[auto] px-[2em] md:px-[1em] pb-4 mt-10"
       >
         <Title title="Experience" />
+
+        <div data-aos="fade-up">
+          <ul className="list-[square] p-5 pb-0">
+            <li>
+              <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
+                Robotics Club (Joint Secretary)
+              </h1>
+              <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
+                Robotics club at NIT, Patna
+              </p>
+              <ul className="list-disc ml-5 text-md mt-1">
+                <li>
+                  Contributed to official{" "}
+                  <a
+                    className="text-blue-500 dark:text-pink-500"
+                    href="https://roboticsnitp.co.in/"
+                    target="blank"
+                  >
+                    website
+                  </a>{" "}
+                  of robotics club and currently maintaining it.
+                </li>
+                <li>Worked on various IoT projects.</li>
+                <li>Organized events and guided peers.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
         <div data-aos="fade-up">
           <ul className="list-[square] p-5 pb-0">
             <li>
@@ -173,8 +185,15 @@ export default function Home() {
               <ul className="list-disc ml-5 text-md mt-1">
                 <li>Founded Hackaruto Club</li>
                 <li>
-                  Designed and developed the official website of Hackaruto ( an
-                  open source club affiliated to Hackclub)
+                  Designed and developed the official{" "}
+                  <a
+                    className="text-blue-500 dark:text-pink-500"
+                    href="https://hackaruto.hackclub.com/"
+                    target="blank"
+                  >
+                    website
+                  </a>{" "}
+                  of Hackaruto ( an open source club affiliated to Hackclub)
                 </li>
                 <li>
                   Organized sessions on hot topics like Web3, Open Source.
@@ -187,6 +206,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
         <div data-aos="fade-up">
           <ul className="list-[square] p-5 pb-0">
             <li>
@@ -197,7 +217,17 @@ export default function Home() {
                 Coding club at NIT, Patna
               </p>
               <ul className="list-disc ml-5 text-md mt-1">
-                <li>Built Hack-Nitp (Hackathon) website.</li>
+                <li>
+                  Built Hack-Nitp (Hackathon){" "}
+                  <a
+                    className="text-blue-500 dark:text-pink-500"
+                    href="https://hack-nitp.tech/"
+                    target="blank"
+                  >
+                    website
+                  </a>
+                  .
+                </li>
                 <li>Worked on full stack projects.</li>
                 <li>Made UI of 3 apps and Hackslash Website.</li>
               </ul>
@@ -209,23 +239,27 @@ export default function Home() {
           <ul className="list-[square] p-5 pb-0">
             <li>
               <h1 className="text-xl font-bold text-gray-800 dark:text-pink-500">
-                Robotics Club (Web Coordinator)
+                CESC (Web Coordinator)
               </h1>
               <p className="text-xs text-[#2C7A7B] dark:text-[#5fd1d3]">
-                Robotics club at NIT, Patna
+                Civil Engineering Students Club at NIT, Patna
               </p>
               <ul className="list-disc ml-5 text-md mt-1">
                 <li>
-                  Contributed to official website of robotics club and currently
-                  maintaining it.
+                  Built official{" "}
+                  <a
+                    className="text-blue-500 dark:text-pink-500"
+                    href="https://cescofficialweb.vercel.app/"
+                    target="blank"
+                  >
+                    website
+                  </a>{" "}
+                  of CESC and currently maintaining it.
                 </li>
-                <li>Worked on various IoT projects.</li>
-                <li>Organized events and guided peers.</li>
               </ul>
             </li>
           </ul>
         </div>
-
       </section>
 
       {/* Skills Section */}
@@ -348,6 +382,17 @@ export default function Home() {
               <AiFillGithub className="mr-2" />
               <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
                 @SudhansuuRanjan
+              </p>
+            </a>
+          </li>
+          <li className="hover:bg-cyan-100 dark:hover:bg-cyan-900 py-2 px-6 w-fit rounded-md ">
+            <a
+              href="https://www.linkedin.com/in/sudhanshu-ranjan-a1779b202/"
+              className="flex items-center text-[#2C7A7B] dark:text-[#5fd1d3] font-medium"
+            >
+              <AiFillLinkedin className="mr-2" />
+              <p className="hover:underline underline-offset-2 decoration-sky-400 dark:decoration-pink-400 decoration-3">
+                @SudhansuRanjan
               </p>
             </a>
           </li>

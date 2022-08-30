@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     backdropFilter: {
       none: "none",
-      blur: "blur(20px)",
+      blur: "blur(10px)",
     },
   },
   plugins: [require("tailwindcss-filters")],

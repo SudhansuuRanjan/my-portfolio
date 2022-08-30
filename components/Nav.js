@@ -18,7 +18,7 @@ const Nav = () => {
   const loaded = useLoaded();
 
   return (
-    <div className="bg-opacity-5 backdrop-blur-md drop-shadow-md z-50 font-mono flex flex-row fixed bg-orange-100 dark:bg-gray-800 dark:bg-opacity-5 dark:backdrop-blur-md dark:drop-shadow-md  w-[100vw] items-center justify-center text-gray-800 dark:text-white">
+    <div className="bg-opacity-5 backdrop-blur-md drop-shadow-md z-50 font-mono flex flex-row fixed bg-orange-400 dark:bg-gray-800 dark:bg-opacity-5 dark:backdrop-blur-md dark:drop-shadow-md  w-[100vw] items-center justify-center text-gray-800 dark:text-white">
       <div className="flex items-center justify-between w-[100%] md:w-[48em] px-4 md:px-2 py-2">
         <div className="flex items-center ">
           <p
@@ -61,6 +61,7 @@ const Nav = () => {
             >
               <a
                 href="https://github.com/SudhansuuRanjan/my-portfolio"
+                target="blank"
                 className="flex items-center"
               >
                 <AiFillGithub className="mr-1" />
