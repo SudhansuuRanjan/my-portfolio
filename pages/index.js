@@ -24,7 +24,7 @@ export default function Home() {
     {
       date: "2020 to present",
       event:
-        "Started the Bachlor's Program in the Electrical Engineering Department at Narional Institute of Technology, Patna.",
+        "Started the Bachelor's Program in the Electrical Engineering Department at National Institute of Technology, Patna.",
     },
   ];
 
