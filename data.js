@@ -1,23 +1,8 @@
 export const Blogs = [
   {
-    name: "How I built my portfolio website.",
-    link: "https://www.youtube.com/watch?v=bSMZgXzC9AA",
-    imgUrl: "https://www.craftz.dog/images/works/menkiki_eyecatch.png",
-  },
-  {
-    name: "How I built my portfolio website.",
-    link: "https://www.youtube.com/watch?v=bSMZgXzC9AA",
-    imgUrl: "https://www.craftz.dog/images/works/inkdrop_01.png",
-  },
-  {
-    name: "How I built my portfolio website.",
-    link: "https://www.youtube.com/watch?v=bSMZgXzC9AA",
-    imgUrl: "https://www.craftz.dog/images/works/menkiki_eyecatch.png",
-  },
-  {
-    name: "How I built my portfolio website.",
-    link: "https://www.youtube.com/watch?v=bSMZgXzC9AA",
-    imgUrl: "https://www.craftz.dog/images/works/inkdrop_01.png",
+    name: "How to make Shopping Cart using HTML/CSS and Js.",
+    link: "https://sudhanshuranjanblogs.hashnode.dev/making-a-shopping-cart",
+    imgUrl: "https://sudhanshu-ranjan.vercel.app/images/shopping-cart.png",
   },
 ];
 
