@@ -64,6 +64,23 @@ export const Works = [
     ],
   },
   {
+    name: "CESC Official Website",
+    slug: "cescofficialweb",
+    details:
+      "Built CESC website from scratch with backend using ReactJs with animations.",
+    date: "2022",
+    website: "https://cescofficialweb.vercel.app/",
+    repo: "https://github.com/SudhansuuRanjan/cescofficialweb",
+    platform: "Web",
+    stack: "ReactJs, NodeJs, SCSS, Sanity",
+    blog: "https://github.com/SudhansuuRanjan/cescofficialweb",
+    images: [
+      {
+        imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/cesc1.png",
+      },
+    ],
+  },
+  {
     name: "twitter spaces",
     slug: "twitter-spaces",
     details:
@@ -73,7 +90,7 @@ export const Works = [
     repo: "https://github.com/SudhansuuRanjan/twitter-spaces-frontend",
     platform: "Web",
     stack: "HTML/CSS, Javascript",
-    blog: "https://www.inkdrop.app/",
+    blog: "",
     images: [
       {
         imgUrl: "https://sudhanshu-ranjan.vercel.app/images/works/twitter-spaces.png",
