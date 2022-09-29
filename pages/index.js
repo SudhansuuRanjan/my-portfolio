@@ -254,7 +254,7 @@ export default function Home() {
                   >
                     website
                   </a>{" "}
-                  of CESC and currently maintaining it.
+                  of CESC with backend and currently maintaining it.
                 </li>
               </ul>
             </li>
